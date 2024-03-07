@@ -1,1 +1,8 @@
-<p>nav-bar works!</p>
+<nav class="navContainer">
+  <div class="inline">
+    <img class="navLogo" src="../../../favicon.ico" alt="site icon" routerLink="/" />
+    @for(link of links; track links) {
+      <p class="links" routerLink={{link.route}}>{{link.name}}</p>
+    }
+  </div>
+</nav>

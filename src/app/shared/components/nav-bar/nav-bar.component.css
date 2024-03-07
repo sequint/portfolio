@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.navContainer {
+  text-align: center;
+}
+
+.links {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px 40px;
+}
+
+.links:hover {
+  color: white;
+  cursor: pointer;
+  /* Credit for below highlighter background svg effect: https://svgbox.net/ */
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=3781c4);
+}
+
+.navLogo {
+  height: 40px;
+  margin-top: 15px;
+}
+
+.navLogo:hover {
+  cursor: pointer;
+}
